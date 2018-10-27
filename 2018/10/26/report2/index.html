@@ -118,7 +118,7 @@
 <meta property="og:image" content="http://yoursite.com/2018/10/26/report2/负反馈引发均衡.png">
 <meta property="og:image" content="http://yoursite.com/2018/10/26/report2/负反馈2.png">
 <meta property="og:image" content="http://yoursite.com/2018/10/26/report2/正反馈1.png">
-<meta property="og:updated_time" content="2018-10-27T15:23:17.782Z">
+<meta property="og:updated_time" content="2018-10-27T17:35:44.050Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="「note」游戏机制——高级游戏设计技术">
 <meta name="twitter:description" content="这就是一篇到处抄句子抄关键词然后干一些自问自答（只有自问没有自答）之类的事的沙雕笔记">
@@ -132,7 +132,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -431,7 +431,7 @@
 <h3 id="作为游戏突现特性的可玩性"><a href="#作为游戏突现特性的可玩性" class="headerlink" title="作为游戏突现特性的可玩性"></a>作为游戏突现特性的可玩性</h3><p>游戏的一致性应高于写实性，但不绝对高于。</p>
 <p>秩序——周期性系统——突现性系统——混沌<br>复杂度递升</p>
 <p>一个突现型游戏，设计师需要使所有的游戏元素平衡得恰到好处，从而使游戏整体行为表现出突现型游戏得特征。</p>
-<p><em>了解一个游戏的可玩性最好得办法就是去试玩</em> </p>
+<p><em>了解一个游戏的可玩性最好的办法就是去试玩</em> </p>
 <h3 id="复杂系统的结构特性"><a href="#复杂系统的结构特性" class="headerlink" title="复杂系统的结构特性"></a>复杂系统的结构特性</h3><p><strong>细胞自动机</strong></p>
 <p>动态行为的系统的三个关键特性</p>
 <ul>
@@ -469,8 +469,17 @@
 <p>正反馈可以使玩家在取得决定性优势由迅速取胜。<br>这种情况在竞技类游戏中比较常见，也就是俗称的滚雪球。</p>
 <p><strong>动态均衡</strong></p>
 <blockquote>
-<p>让负反馈循环的均衡依赖于多名玩家的境遇差异或游戏中的其他因素，从而使这种均衡具有差异性<br>To Be Continued →</p>
+<p>让负反馈循环的均衡依赖于多名玩家的境遇差异或游戏中的其他因素，从而使这种均衡具有差异性</p>
 </blockquote>
+<p>皮筋约束<br>基于<strong>相对位置</strong>的负反馈</p>
+<h3 id="内部经济在游戏中的应用"><a href="#内部经济在游戏中的应用" class="headerlink" title="内部经济在游戏中的应用"></a>内部经济在游戏中的应用</h3><p>1)补强物理机制<br>同时注意平衡风险与回报<br>2)影响游戏进程<br>如引入路径的抽象资源<br>3)引入策略性玩法<br>4)创造出大概率空间</p>
+<ul>
+<li>在由于玩家自定义方案而出现游戏经济失衡时，最好是采用某些形式的负反馈来平衡这些自定义方案</li>
+<li>保证概率空间足够大</li>
+<li>理想上来说，设计关卡时就设计好多种过关方案</li>
+</ul>
+<p><strong>个人思考：如何为玩家提供个人化的游戏体验？</strong></p>
+<p>To Be Continued →</p>
 
       
     </div>
@@ -641,7 +650,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#设计游戏机制"><span class="nav-number">1.</span> <span class="nav-text">设计游戏机制</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#规则定义游戏"><span class="nav-number">1.1.</span> <span class="nav-text">规则定义游戏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#离散机制与连续机制"><span class="nav-number">1.2.</span> <span class="nav-text">离散机制与连续机制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#机制和游戏设计过程"><span class="nav-number">1.3.</span> <span class="nav-text">机制和游戏设计过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#原型制作技术"><span class="nav-number">1.4.</span> <span class="nav-text">原型制作技术</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#突现和渐进"><span class="nav-number">2.</span> <span class="nav-text">突现和渐进</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#突现和渐进的历史"><span class="nav-number">2.1.</span> <span class="nav-text">突现和渐进的历史</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#将突现和渐进进行对比"><span class="nav-number">2.2.</span> <span class="nav-text">将突现和渐进进行对比</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#突现型游戏"><span class="nav-number">2.3.</span> <span class="nav-text">突现型游戏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#渐进型游戏"><span class="nav-number">2.4.</span> <span class="nav-text">渐进型游戏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结构差异"><span class="nav-number">2.5.</span> <span class="nav-text">结构差异</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#将突现和渐进相结合"><span class="nav-number">2.6.</span> <span class="nav-text">将突现和渐进相结合</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#复杂系统和突现结构"><span class="nav-number">3.</span> <span class="nav-text">复杂系统和突现结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#作为游戏突现特性的可玩性"><span class="nav-number">3.1.</span> <span class="nav-text">作为游戏突现特性的可玩性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#复杂系统的结构特性"><span class="nav-number">3.2.</span> <span class="nav-text">复杂系统的结构特性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#驾驭游戏中的突现特性"><span class="nav-number">3.3.</span> <span class="nav-text">驾驭游戏中的突现特性</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#内部经济"><span class="nav-number">4.</span> <span class="nav-text">内部经济</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#内部经济的构成要素"><span class="nav-number">4.1.</span> <span class="nav-text">内部经济的构成要素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#经济结构"><span class="nav-number">4.2.</span> <span class="nav-text">经济结构</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#设计游戏机制"><span class="nav-number">1.</span> <span class="nav-text">设计游戏机制</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#规则定义游戏"><span class="nav-number">1.1.</span> <span class="nav-text">规则定义游戏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#离散机制与连续机制"><span class="nav-number">1.2.</span> <span class="nav-text">离散机制与连续机制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#机制和游戏设计过程"><span class="nav-number">1.3.</span> <span class="nav-text">机制和游戏设计过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#原型制作技术"><span class="nav-number">1.4.</span> <span class="nav-text">原型制作技术</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#突现和渐进"><span class="nav-number">2.</span> <span class="nav-text">突现和渐进</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#突现和渐进的历史"><span class="nav-number">2.1.</span> <span class="nav-text">突现和渐进的历史</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#将突现和渐进进行对比"><span class="nav-number">2.2.</span> <span class="nav-text">将突现和渐进进行对比</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#突现型游戏"><span class="nav-number">2.3.</span> <span class="nav-text">突现型游戏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#渐进型游戏"><span class="nav-number">2.4.</span> <span class="nav-text">渐进型游戏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结构差异"><span class="nav-number">2.5.</span> <span class="nav-text">结构差异</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#将突现和渐进相结合"><span class="nav-number">2.6.</span> <span class="nav-text">将突现和渐进相结合</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#复杂系统和突现结构"><span class="nav-number">3.</span> <span class="nav-text">复杂系统和突现结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#作为游戏突现特性的可玩性"><span class="nav-number">3.1.</span> <span class="nav-text">作为游戏突现特性的可玩性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#复杂系统的结构特性"><span class="nav-number">3.2.</span> <span class="nav-text">复杂系统的结构特性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#驾驭游戏中的突现特性"><span class="nav-number">3.3.</span> <span class="nav-text">驾驭游戏中的突现特性</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#内部经济"><span class="nav-number">4.</span> <span class="nav-text">内部经济</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#内部经济的构成要素"><span class="nav-number">4.1.</span> <span class="nav-text">内部经济的构成要素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#经济结构"><span class="nav-number">4.2.</span> <span class="nav-text">经济结构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#内部经济在游戏中的应用"><span class="nav-number">4.3.</span> <span class="nav-text">内部经济在游戏中的应用</span></a></li></ol></li></ol></div>
             
 
           </div>
