@@ -94,7 +94,7 @@
 
 
 
-  <meta name="keywords" content="GameShare,Otogame,">
+  <meta name="keywords" content="Note,">
 
 
 
@@ -105,15 +105,20 @@
 
 
 
-<meta name="keywords" content="GameShare,Otogame">
+<meta name="keywords" content="Note">
 <meta property="og:type" content="article">
-<meta property="og:title" content="「GameShare」 Muse Dash">
-<meta property="og:url" content="http://yoursite.com/2018/10/24/gameshare1/index.html">
+<meta property="og:title" content="「Note」游戏AI笔记">
+<meta property="og:url" content="http://yoursite.com/2018/11/29/AI/index.html">
 <meta property="og:site_name" content="whiteneet is here">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-10-30T08:49:06.263Z">
+<meta property="og:image" content="http://yoursite.com/2018/11/29/AI/BLINKY.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/29/AI/PINKY.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/29/AI/CYLDE.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/29/AI/INKY.png">
+<meta property="og:updated_time" content="2018-12-01T04:52:14.469Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="「GameShare」 Muse Dash">
+<meta name="twitter:title" content="「Note」游戏AI笔记">
+<meta name="twitter:image" content="http://yoursite.com/2018/11/29/AI/BLINKY.png">
 
 
 
@@ -143,13 +148,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/10/24/gameshare1/">
+  <link rel="canonical" href="http://yoursite.com/2018/11/29/AI/">
 
 
 
 
 
-  <title>「GameShare」 Muse Dash | whiteneet is here</title>
+  <title>「Note」游戏AI笔记 | whiteneet is here</title>
   
 
 
@@ -275,7 +280,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/24/gameshare1/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/29/AI/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Zhang JT">
@@ -292,7 +297,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">「GameShare」 Muse Dash</h1>
+          <h1 class="post-title" itemprop="name headline">「Note」游戏AI笔记</h1>
         
 
         <div class="post-meta">
@@ -304,8 +309,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-10-24T23:30:49+08:00">
-                2018-10-24
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-29T20:56:09+08:00">
+                2018-11-29
               </time>
             
 
@@ -327,8 +332,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/Game/" itemprop="url" rel="index">
-                    <span itemprop="name">Game</span>
+                  <a href="/categories/Note/" itemprop="url" rel="index">
+                    <span itemprop="name">Note</span>
                   </a>
                 </span>
 
@@ -364,17 +369,16 @@
       
 
       
-        <center></center>
-
-<a id="more"></a>
+        <p><center></center><br><a id="more"></a></p>
+<h2 id="About-Pac-man"><a href="#About-Pac-man" class="headerlink" title="About Pac-man"></a>About Pac-man</h2><p>我觉得Pac-Man的AI设计完全符合一个优秀的突现型游戏的特点，也就是游戏机制那本书中所说的：</p>
 <blockquote>
-<p><strong>一点点感想</strong></p>
+<p>让所有元素尽量简单，但又在各元素之间建立起联系。</p>
 </blockquote>
-<p>之所以想拿MuseDash来起头，除了这游戏本身素质过硬这一点以外，我本人也是一个忠实的音游粉。孩童时期的鼓王，乐动达人等游戏可以算是我的音游启蒙。之后家里添置了iPad，我仍记得当初自己为了能在iPad上打太鼓达人和jubeat到处搜教程，怎么刷机越狱，怎么下到全曲包破解版，怎么解决闪退问题等等等等。虽然最后还是以失败告终，但现在想想还是挺有意思的。再到后来cytus，deemo，dynamix，nanota这些优秀的移动端音游出现，同时也接触了pc端的OSU！，beatstage等，我也随之在音游这条不归路上越走越远。（<del>虽然跟玩iidx等<strong>超</strong>硬核的音游的那些大佬还很有些距离</del>）</p>
+<p>对于所有的Ghost来说它们的基本行动逻辑其实很简单，根据时间在ScatterMode和ChaseMode之间切换并最终永久变为ChaseMode，在Pac-mac吃到energizer后进入FrightenedMode一小段时间，同时再加上Wave和Ghost’Personality的设定。这些元素单独来看都不是什么复杂的设定，但他们和在一起却使得Pac-man这个游戏充满了不确定性。Personality使得各个Ghost有自己独特的行为模式，Blinky穷追不舍，Pinky伏击，Inky捣乱，Cylde边缘OB，但他们的设定使得在每个Wave到来时，至少会有2个以上的Ghost出现在Pac-man周围8个tiles的范围内，形成一种刻意的合作包围模式，这样就在游戏内营造出了紧张感，同时也增加了AI的真实感。<br>另外我觉得在转换模式时的那个突然转向是一个好点子，这其实就跟恐怖游戏的JumpScare有异曲同工之妙。试想一下我们第一次玩Pac-man，进来看到四个Ghost都跑到旮旯里兜圈子觉得他们人畜无害，正在开心地吃豆子，这时我们突然看到他们四个 <strong>突然同时反向</strong>，游戏的节奏就突然变得紧张起来，同时也会使玩家更加专注于游戏本身，增强了沉浸感。</p>
+<p><center>附上自己瞎画的Ghost行为树<del>（求轻喷）</del></center><br><img src="/2018/11/29/AI/BLINKY.png" alt="Blinky"><br><img src="/2018/11/29/AI/PINKY.png" alt="Pinky"><br><img src="/2018/11/29/AI/CYLDE.png" alt="Cylde"><br><img src="/2018/11/29/AI/INKY.png" alt="Inky"></p>
+<p>## </p>
 <blockquote>
-<p><strong>下面开始老老实实地介绍游戏</strong></p>
-</blockquote>
-<p>第一次接触到MuseDash是在TapTap的推荐首页上。当时看着是个音游而且画风还不错就喜加一了（<del>在steam上养成的坏习惯</del>），深入玩了之后才发现这是个十分良心的音乐游戏。<br>首先，不得不称赞一下游戏的机制，<strong>音游打击+战斗击打+跑酷</strong>是个很有意思的想法。玩家通过点击屏幕左右侧（也可以改为上下侧）来控制角色打击上下两个轨道的敌人（<del>被一个音游dalao朋友吐槽说这就是手机版太鼓</del>），敌人的类型也涵盖了传统音游里的单打，长按，连打，隐藏音，跑酷游戏里的机关。横向来看，传统音游在形式上多为下落式，光从形式上来看很容易产生枯燥感，对于非硬核音游玩家来说入门门槛有点高。传统的解决（吸引玩家）方式通常回事加入谱面内置动画，像iidx的动画，太鼓的咚咔酱跳舞等。然而音游是一种十分需要集中注意力的游戏类型，所以这些东西往往处在了一个很尴尬的位置，硬核玩家觉得烦，吃瓜玩家也不觉得有意思。MuseDash的这种直接丰富游戏过程做法，我个人感觉是在降低玩家第一次尝试的门槛，让更多的人能够来<strong>试一试</strong>这个游戏，从而有机会更深入地去体验这个游戏。事实证明，无论是从我个人的角度，还是客观地从Taptap平台上9.5的评分和iOS上4.9的评分来看，这个想法都是成功的。<br>其次，游戏的美术也是一个加分项。（<del>开始界面始终让我想起飞天小女警</del>）整个游戏给人的视觉效果就是灵动绚丽，人物动作的2D渲染（应该是叫这个吧？）做的十分流畅，美术风格虽然有点卡通，但是其实内核还是有点面向宅群体，游戏内有很多人物的身上还是可以看到一些宅文化符号。另外当初游戏的宣传图也做的十分赞，给我的视觉冲击感十分强烈，游戏内解锁的插画大多也是质量上乘。<br>虽然有一些判定和画面花里胡哨的问题被部分硬核音游玩家所诟病，但整体来讲瑕不掩瑜。特别是游戏制作者们十分用心，当时刚上线的时候部分安卓机型出现了卡顿问题，制作组在一个星期内就修复了这个问题。<br>总的来说，如果要评分的话，我给9.2/10.0，可以说是移动端难得一见的音游佳作。</p>
+<font color="#EEAD0E">←To Be Continued</font></blockquote>
 
       
     </div>
@@ -392,9 +396,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/GameShare/" rel="tag"># GameShare</a>
-          
-            <a href="/tags/Otogame/" rel="tag"># Otogame</a>
+            <a href="/tags/Note/" rel="tag"># Note</a>
           
         </div>
       
@@ -407,15 +409,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/11/07/report4/" rel="next" title="「Note」游戏情感设计">
+                <i class="fa fa-chevron-left"></i> 「Note」游戏情感设计
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/10/26/report2/" rel="prev" title="「Note」游戏机制——高级游戏设计技术">
-                「Note」游戏机制——高级游戏设计技术 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -467,8 +469,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -528,6 +539,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#About-Pac-man"><span class="nav-number">1.</span> <span class="nav-text">About Pac-man</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
