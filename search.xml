@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>「poetry」Do Not Go Gentle Into That Good Night</title>
+      <link href="/2019/10/08/Do%20not%20go%20gentle%20into%20that%20good%20night/"/>
+      <url>/2019/10/08/Do%20not%20go%20gentle%20into%20that%20good%20night/</url>
+      
+        <content type="html"><![CDATA[<p><center></center><br><a id="more"></a></p><blockquote><p>Do not go gentle into that good night<br>Old age should burn and rave at close of day<br>Rage,rage against the dying of the light</p><p>Though wise men at their end know dark is right<br>Because their words had forked no lightning they<br>Do not go gentle into that good night</p></blockquote><blockquote><p>Good men, the last wave by,crying how bright<br>Their frail deeds might have danced in a green day,<br>Rage,rage against the dying of the light</p><p>Wild men who caught and sang the sun in flight,<br>And learn,too late,they grieved it on its way,<br>Do not go gentle into that good light.</p><p>Grave men,near death,who see with blinding sight,<br>Blind eyes could blaze like meteors and be gay,<br>Rage,rage against the dying of the light.</p><p>And you,my father,there on the sad height,<br>Curse,bless,me now with your fierce tears,I pray.<br>Do not go gentle into that good night.<br>Rage,rage against the dying of the light.</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> poetry </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> poetry </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>「Note」 Die Traumdeutung 梦的解析</title>
+      <link href="/2019/01/17/Die%20Traumdeutung/"/>
+      <url>/2019/01/17/Die%20Traumdeutung/</url>
+      
+        <content type="html"><![CDATA[<p><strong><del>弗公解梦</del></strong><br><a id="more"></a></p><h1 id="原文摘录及思考"><a href="#原文摘录及思考" class="headerlink" title="原文摘录及思考"></a>原文摘录及思考</h1><h2 id="有关梦的问题的科学文献"><a href="#有关梦的问题的科学文献" class="headerlink" title="有关梦的问题的科学文献"></a>有关梦的问题的科学文献</h2><blockquote><p>关于梦的史前观点无疑会反映在古代人们对梦所持有的态度上。他们深信梦与他们所信奉的超自然世界具有联系，梦是神灵所传达的启示。</p></blockquote><p>笔记：</p><p>什么是精神结构？</p><p>睡眠与梦的关系？</p><p>## </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>「Note」游戏AI笔记</title>
+      <link href="/2018/11/29/AI/"/>
+      <url>/2018/11/29/AI/</url>
+      
+        <content type="html"><![CDATA[<p><center></center><br><a id="more"></a></p><h2 id="About-Pac-man"><a href="#About-Pac-man" class="headerlink" title="About Pac-man"></a>About Pac-man</h2><p>我觉得Pac-Man的AI设计完全符合一个优秀的突现型游戏的特点，也就是游戏机制那本书中所说的：</p><blockquote><p>让所有元素尽量简单，但又在各元素之间建立起联系。</p></blockquote><p>对于所有的Ghost来说它们的基本行动逻辑其实很简单，根据时间在ScatterMode和ChaseMode之间切换并最终永久变为ChaseMode，在Pac-mac吃到energizer后进入FrightenedMode一小段时间，同时再加上Wave和Ghost’Personality的设定。这些元素单独来看都不是什么复杂的设定，但他们和在一起却使得Pac-man这个游戏充满了不确定性。Personality使得各个Ghost有自己独特的行为模式，Blinky穷追不舍，Pinky伏击，Inky捣乱，Cylde边缘OB，但他们的设定使得在每个Wave到来时，至少会有2个以上的Ghost出现在Pac-man周围8个tiles的范围内，形成一种刻意的合作包围模式，这样就在游戏内营造出了紧张感，同时也增加了AI的真实感。<br>另外我觉得在转换模式时的那个突然转向是一个好点子，这其实就跟恐怖游戏的JumpScare有异曲同工之妙。试想一下我们第一次玩Pac-man，进来看到四个Ghost都跑到旮旯里兜圈子觉得他们人畜无害，正在开心地吃豆子，这时我们突然看到他们四个 <strong>突然同时反向</strong>，游戏的节奏就突然变得紧张起来，同时也会使玩家更加专注于游戏本身，增强了沉浸感。</p><p><center>附上自己瞎画的Ghost行为树<del>（求轻喷）</del></center><br><img src="/2018/11/29/AI/BLINKY.png" alt="Blinky"><br><img src="/2018/11/29/AI/PINKY.png" alt="Pinky"><br><img src="/2018/11/29/AI/CYLDE.png" alt="Cylde"><br><img src="/2018/11/29/AI/INKY.png" alt="Inky"></p><blockquote><font color="#EEAD0E">←To Be Continued</font></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>「Note」游戏情感设计</title>
+      <link href="/2018/11/07/report4/"/>
+      <url>/2018/11/07/report4/</url>
+      
+        <content type="html"><![CDATA[<p>文案使人秃头.JPG<br><a id="more"></a></p><h3 id="为什么创作难"><a href="#为什么创作难" class="headerlink" title="为什么创作难"></a>为什么创作难</h3><p>在影片/游戏中，一个场景要同时达到一下目的：</p><ul><li>推进情节。</li><li>显示一个角色的新信息。</li><li>显示角色间关系的新信息。</li><li>显示角色间关系的多个方面。</li><li>显示角色情感成长或抗拒成长。</li><li>用5个、10个或15个对话技术使对话显得自然。</li><li>用几个对话技术暗示角色的内心感受，即使角色没有意识到这些隐藏的感受。</li><li>用其他对话技术显示两个角色间的矛盾情绪。</li><li>用特定创作技术使场景具有痛苦或者情感力度。</li><li>强化电影或电视情节的主题。</li><li>在故事中引入一些小要素，后面的情节中要访问这些要素。</li><li>艺术地采用几个意象等等。</li></ul><p>也就是说，在电影/游戏中，每一个场景往往具有多重作用。我们能直观感受到的往往只是其中的部分，还有一些作用是隐性的。同时，我们能控制的部分也取决于我们能注意到的部分。<del>要多看书了。</del><br>这就使我想起了《游戏设计艺术》中所提到的反思技巧，在体验优秀的作品时，如何从一个尽可能客观的角度来审视我们自身的体验，情感，以及我们为什么会这样？有哪些东西发挥了作用？同时又如何保持我自身的体验不被打断？这是一门观察自身的学问。</p><hr><p><center><code>这个作者有、意思</code></center><br><img src="/2018/11/07/report4/羊驼.png" alt="羊驼"></p><h3 id="Emotioneering-is-Better-than-Writing"><a href="#Emotioneering-is-Better-than-Writing" class="headerlink" title="Emotioneering is Better than Writing"></a>Emotioneering is Better than Writing</h3><p>情感工程的目标是把游戏者推进相互联系的情感体验序列中。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>「Note&amp;Idea」MMOGameSystem</title>
+      <link href="/2018/11/02/GameSystem/"/>
+      <url>/2018/11/02/GameSystem/</url>
+      
+        <content type="html"><![CDATA[<p>一个不玩MMO的人在这扯MMO的系统……<br><a id="more"></a></p><p><strong>首先，我们要明确一个问题，什么是游戏系统？</strong><br>Wiki上给出PRG游戏系统的定义是这样的：</p><blockquote><p>A role-playing game system is a set of game mechanics used in a role-playing game (RPG) to determine the outcome of a character’s in-game actions.</p></blockquote><p>从内容上看，<code>GameSystem is a set of game mechanics</code>，很好，游戏系统是由一套游戏机制，这很容易理解。大多的MMORPG都会有一个复杂的游戏系统，这个系统内还有职业系统，战斗系统，经济系统，任务系统等等。但究其本源，这些系统都有其内在的运行机制。但要注意的是，<strong>机制≠规则</strong>。对于玩家而言，他们可以看到游戏内部的数值，属性，规则，然后通过这些知道这个游戏怎么玩，怎么才能玩好。但是如果我们站在一个设计者角度来看这个问题，我们从开始就已经想好了这个游戏要怎么玩，从某种意义上来讲这时游戏的机制就已经建立了，但还没有具体实现。于是，自然而然就有了后面半句话<code>to determine the outcome of a character&#39;s in-game actions</code>。</p><p><strong>那么，一个游戏系统由哪些要素组成？</strong><br>从组成上来讲，传统的MMORPG的游戏系统可以模块化为以下部分：<br>职业系统，技能系统，战斗系统，经济系统，任务系统，成长系统，道具系统，社交系统，组队系统。其中作为游戏主要部分的系统有职业，技能，战斗，经济，任务。有了这些系统，就代表着一个MMORPG已经可以运转起来给人玩了。但仅有这些是远远不够的，如果没有像成长系统，道具系统，社交系统，组队系统这类的辅助系统，这样的一个MMORPG是不足够吸引人的，换句话讲就是这样的MMORPG不够好玩。<br>具体案例分析先咕在这= =改天去试试基三或者魔兽再回来填。</p><p><strong>于是，怎么构建一个游戏系统？</strong><br>对于MMORPG而言，游戏的核心内容很明显，那就是角色扮演（Role-playing）和多人（Multiplayer）。藉此，我们可以确定这个框架中应该包含等级/装备成长，剧情发展，信息交流，物资流通和协作竞技这些元素，然后再细分出下级层次和衍生内容。到此为止，一个MMORPG游戏系统的基础框架（核心结构）就已经成形了。之后再对这个框架进行增删修改或者差异化构筑时就会显得很方便，同时也不会过多的影响开发方向。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Note </category>
+          
+          <category> Idea </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>「Note&amp;Idea」对Metroidvania的总结与思考</title>
+      <link href="/2018/10/30/Metroidvania/"/>
+      <url>/2018/10/30/Metroidvania/</url>
+      
+        <content type="html"><![CDATA[<p>Only Some Superficial Thoughts<br><a id="more"></a></p><h3 id="关于Metroid系列"><a href="#关于Metroid系列" class="headerlink" title="关于Metroid系列"></a>关于Metroid系列</h3><p>Metroid系列的核心玩法归纳起来很简单。就是探索，遇到障碍并记下位置，找出克服障碍的道具，回到障碍处继续前进。直观上来看，这其实就是一个很简单的线性设计（当然这是从简述上来看，事实上这个玩法更多的是在非线性设计上放彩）。那又是为什么，Metroid会成为一代游戏设计的经典？</p><h4 id="初代、二代——在尝试中探索"><a href="#初代、二代——在尝试中探索" class="headerlink" title="初代、二代——在尝试中探索"></a>初代、二代——在尝试中探索</h4><p>初代的Metroid在玩法上开创了先河，打造了一个充满无限探索可能的Zebes星球，玩家能在不断的寻路和探索中一点一点熟悉这个未知的外星星球。“障碍——找到对应道具——突破障碍前进/得到奖励”这样的<strong>结（Knot）</strong>构成了游戏体验的主体骨架，玩家在游戏前中期会遇到大量的这种结，但是只有结的头部，解开结的关键道具会巧妙地设置在游戏中，给玩家提供“哦这个时候我该往回走了”，“那儿现在可以走过去了”这样的惊喜体验。玩家的情感体验也随着这个结的解开而经过““困惑—理解—领悟—预期—惊喜”这样一个过程。我认为这些被营造的惊喜体验和探索的乐趣是这种玩法的核心。<br>然而初代的缺点也很明显——他太难了。且不说那些藏得十分刁钻而且与周围没有明显差异的隐藏砖块，游戏的非线性结构设计得太宽了，也太难了，玩家在游戏中期很容易陷入迷茫，不知道下一个突破口在哪。同时，这种地图设计并不像塞尔达的辐射式地图结构，而是一种类线性的重复跑图，玩家在这个过程中也有可能产生厌倦的心理。从而使初代的Metroid只能成为少部分硬核玩家口中的神作。<br>为了改善这一点，在续作Mission Zero中，游戏里加入了地图和指路的鸟人雕像等一系列引导性元素。虽然说玩家的不再会对接下来的流程感到迷茫，但是这些过多的指引同时破坏了这种游戏机制的关键性体验——探索未知的兴奋感。玩家的游戏体验更多的是一种完成任务式的按图索骥，而不是自发性地寻找未知的出路，从而流失了那种惊喜体验。</p><h4 id="SuperMetroid——集大成的杰作"><a href="#SuperMetroid——集大成的杰作" class="headerlink" title="SuperMetroid——集大成的杰作"></a>SuperMetroid——集大成的杰作</h4><p>SuperMetroid虽然说销量远不及初代，但是从游戏设计和玩家反馈上来看，这一作却是整个系列的巅峰。<br>除了有设计合理的地图给与玩家适当的提示，游戏中期的那一次回到原点堪称神来之笔，我觉得这个设计可以说是真正诠释了什么叫做“通过新道具重新构筑原有世界”。<br>下面是一张来自bosskey的SuperMetroid Dependency Chart<br><img src="/2018/10/30/Metroidvania/SuperMetroid.png" alt=""><br>我认为，SuperMetroid中最值得拿来思考的就是它对于游戏流程中<strong>瓶颈</strong>的设计。设计者通过合理的瓶颈设置，有效地限制了玩家的活动空间(<del>可行性剪枝</del>)，换个角度来看，这就是设计者给出的提示，并且给玩家保留了探索的乐趣。同时，这些被小瓶颈暂时锁住的其他分支路径，会随着游戏流程慢慢积累，最终在中后期那次（红线处）回到原点时一起迸发出其能量，这个时候对于玩家而言，之前的地图已经是ver2了，充满了未知的可能性。除此之外，游戏的交织结构设计和破序技巧的使用也是值得参考和玩味的地方。</p><h3 id="Castlevania以及后来的Metroidvania"><a href="#Castlevania以及后来的Metroidvania" class="headerlink" title="Castlevania以及后来的Metroidvania"></a>Castlevania以及后来的Metroidvania</h3><h4 id="Castlevania"><a href="#Castlevania" class="headerlink" title="Castlevania"></a>Castlevania</h4><p>恶魔城系列（Castlevania）的出现奠定了Metroidvania这一游戏类型的基础。Castlevania在Metroid系列优秀的地图和流程设计基础上加入了等级装备这些RPG元素。等级系统整体延长了游戏时间，不同类型的可培养武器也使得游戏有了重玩价值，整体来看，这一类游戏已经变得有一点类似于ARPG了。<br>但是现在出现了一个问题，加入装备和等级这样的元素后，在游戏流程中玩家各个方面是会不断成长的，而不是像Metroid只是增加了攻击和移动方式。这样，如果还要沿用Metroid中经典的“回头路”式设计，就必须得仔细设计沿途路上的敌人属性，否则就会出现玩家在走完一趟回头路之后回来沿路上的怪物都无法对玩家构成威胁这样的情况，使得跑图完完全全变成了枯燥的跑图，玩家在这个过程中就有可能丧失了沉浸式的体验，换言之，太过简单的敌人会使玩家流失一定的游戏乐趣。</p><h4 id="HollowKnight"><a href="#HollowKnight" class="headerlink" title="HollowKnight"></a>HollowKnight</h4><p>在我看来</p><blockquote><font color="#EEAD0E">←To Be Continued</font></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Note </category>
+          
+          <category> Idea </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+            <tag> Metroidvania </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>「GameShare」VA-11 Hall-A:Cyberpunk Bartender Action</title>
+      <link href="/2018/10/28/gameshare2/"/>
+      <url>/2018/10/28/gameshare2/</url>
+      
+        <content type="html"><![CDATA[<p><center><strong>调制饮料，改变人生</strong></center></p><p><center><em>这糟糕透了的[哔——]社会和这[哔——]赞的破酒馆</em></center></p><a id="more"></a><hr><blockquote><font><em>Glitch City,207X A.D.<br>这是不应存在的城市。<br>由企业和黑帮主宰一切的避税天堂。<br>在这里，所有人都被植入纳米机械，用于维持监控。<br>白骑士监督每位市民，确保腐败政府的法律得到服从。<br>形形色色的暴行不过是这座城市日常生活的剪影。<br>弱势群体的生活品质正在急剧下滑。<br>对很多人而言，这是难以承受的重负。<br>有些人选择投入自己的工作，家庭，或是研究之中。<br>另一些人正在寻求逃离的方式。<br>还有一些人……选择了放弃。<br>但也有人认为自己的答案就沉在酒杯的底部。<br>在距离城市主干道只有几步之遥的小路上，<br>贫民区附近的某个地方，<br>你可以找到这家BTC认证编号VA-11的酒吧Hall A<br>……但是全称过于拗口，因此我们称之为Valhalla。<br>这是钢筋混凝土荒漠中的小小绿洲。<br>为疲惫不堪的灵魂带来慰藉的精神之泉。<br>我们的故事就将在这里展开</em></font></blockquote><hr><blockquote><font color="#EEAD0E">←To Be Continued</font></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Game </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Cyberpunk </tag>
+            
+            <tag> GameShare </tag>
+            
+            <tag> Dystopia </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>「Note」如何阅读一本书</title>
+      <link href="/2018/10/28/report3/"/>
+      <url>/2018/10/28/report3/</url>
+      
+        <content type="html"><![CDATA[<p>我们的目标是——<br><a id="more"></a></p><center><del>没有蛀牙</del></center><br><center><strong><em>为获取咨询而读，以及为求得理解而读</em></strong></center><h2 id="阅读的层次"><a href="#阅读的层次" class="headerlink" title="阅读的层次"></a>阅读的层次</h2><h3 id="阅读的层次-1"><a href="#阅读的层次-1" class="headerlink" title="阅读的层次"></a>阅读的层次</h3><p><strong>四个层次</strong></p><ol><li>基础阅读</li><li>检视阅读</li><li>分析阅读</li><li>主题阅读</li></ol><p><strong>检视阅读</strong><br><em>その一</em></p><ol><li>先看书名页，有序看序</li><li>研究目录</li><li>如有索引，检阅之 </li><li>出版者介绍</li><li>挑主题篇章来看</li><li>随机翻阅，但不要在某一处看太多</li><li>后记</li></ol><p><em>その二</em><br>头一次看难读的书时，遇到不懂的地方不要停留思索或查询，继续读，从头到尾先读一遍。</p><p><strong>控制阅读的速度</strong></p><p><strong>一个阅读者要提出的四个基本问题</strong></p><ol><li>整体来说，这本书再说什么？<br>分析主题，列点</li><li>作者细部说了什么，怎么说的？<br>从想法，声明，论点等角度来考虑</li><li>（完成1.2步之后）这本书说的有道理吗？是全部有？还是部分有？</li><li>这本书与我有什么关系？</li></ol><p><strong>要读出作者的言外之意</strong><br>保持清醒 思考 感想</p><h3 id="关于笔记"><a href="#关于笔记" class="headerlink" title="关于笔记"></a>关于笔记</h3><ol><li>写在目录的<strong>结构笔记</strong><br>什么样的书?<br>书在讨论什么<br>作者所用的架构</li><li><strong>概念笔记</strong><br>作者对该主题的想法+自己的观点 </li><li><strong>辨证笔记</strong><br>针对一场讨论情景的笔记<h3 id="关于习惯"><a href="#关于习惯" class="headerlink" title="关于习惯"></a>关于习惯</h3><center><strong>对单一步骤的练习</strong></center><br><center><strong>↓</strong></center><br><center><strong>自然压缩、连结（由量变而质变）</strong></center><br><center><strong>↓</strong></center><br><center><strong>养成习惯</strong></center></li></ol><hr><h2 id="阅读的第三个层次：分析阅读"><a href="#阅读的第三个层次：分析阅读" class="headerlink" title="阅读的第三个层次：分析阅读"></a>阅读的第三个层次：分析阅读</h2><h3 id="分析阅读的第一个阶段"><a href="#分析阅读的第一个阶段" class="headerlink" title="分析阅读的第一个阶段"></a>分析阅读的第一个阶段</h3><p>四个规则</p><ol><li>最好在阅读之前就知道自己在读什么，同时在自己心中对该种书有一个分类的标准。<br>理论/知识——知道是怎么一回事<br>实用——如果我们想做什么事，我们需要什么知识<br>学习去怀疑。<br><em>辨证看待书籍类型</em><br>拿对理论性书籍举例：<br>经验类别<br>思考方式<br>论证方式<br><strong>哪儿不同？具体到哪些词目，命题？</strong><blockquote><p>学习以适当的态度来阅读不同的书</p></blockquote></li><li>使用尽量少的句子概括全书</li><li>列举重要章节，说明他们是如何按顺序组成一个整体架构<br>一堆转与一间房子的比喻</li><li>找出作者要问的问题（作者的意图）<br>要注意”意图谬误“<br>另:四个规则具有整体性，他们共有一个目标。<br><strong>掌握结构大纲</strong></li></ol><h3 id="分析阅读的第二个阶段"><a href="#分析阅读的第二个阶段" class="headerlink" title="分析阅读的第二个阶段"></a>分析阅读的第二个阶段</h3><p>同样是四个规则：</p><ol start="5"><li>找出共通的词义<br>抓出重要关键字，每个字的不同意义的转换</li><li>从最重要的句子中抓出作者的重要主旨</li><li>找出作者的论述，重新架构这些论述的前因后果，以明白作者的主张</li><li>确定作者已经解决了哪些问题，还有哪些是未解决的。在未解决的问题中，确定哪些是作者认为自己无法解决的问题。<br><strong>明确目的：诠释作者的意图</strong><blockquote><p>阅读的一部分本质就是被困惑，而且知道自己被困惑。</p></blockquote></li></ol><h3 id="最后一个阶段"><a href="#最后一个阶段" class="headerlink" title="最后一个阶段"></a>最后一个阶段</h3><p><strong>公正地评断一本书</strong></p><blockquote><p><strong>遵守思维的礼节</strong><br>主动的阅读必须能评论，提出批评，才算真正完成了这件事。<br><em>一个人如果不能自动自发地运用独立的判断力，他根本就不可能学习到任何东西。或许他可以受训练，却不能受教。</em></p></blockquote><ol start="9"><li>在说出”我同意“，”我不同意“，或”我暂缓评论“之前，<strong>你一定要能肯定地说：”我了解了“</strong>。</li><li>当你不同意作者的观点时，要理性地表达自己的意见，不要无理地辩驳或争论。</li><li>尊重知识与个人观点的不同，再做任何评断之前，都要找出理论基础。</li></ol><p><strong>赞成或反对作者</strong><br><em>理想化辩论的三个条件</em><br>1) 注意自己的情绪，理性辩论。<br>2) 把自己的前提或假设摊出来。<br>3) 为化解盲点，应尽力尝试不偏不倚。<br><em>如何向作者表示反对</em><br>1) 你的知识不足 —— 缺少某些与他想要解决的问题相关的知识<br>2) 你知识有错误 —— 这样的错误可能来自缺乏知识，但也可能远不止于此<br>3) 你不合逻辑/你的推论无法令人信服 —— 分为两种。其一为缺乏连贯，前言不搭后语，其二为事件变化的前后不一致。<br>4) 你的分析不够完整 —— 就是说他并没有解决他一开始提出来的所有问题，或是他并没有尽可能善用他手边的资料，或是他并没有看出其间的含意与纵横交错的关系，或是他没法让自己的想法与众不同。</p><blockquote><p>要成为一个好读者，就要懂得依照一本书的特质，运用不同的阅读技巧来阅读。</p></blockquote><p><strong>有关辅助阅读</strong><br>经验对于阅读的作用：<br>一般经验——小说，哲学等<br>特殊经验——科学性作品<br>其他书可以作为外在助力：<br>主要用于延伸内容脉络<br>通过相关书籍构建一个大型的网路脉络</p><h2 id="阅读不同读物的方法"><a href="#阅读不同读物的方法" class="headerlink" title="阅读不同读物的方法"></a>阅读不同读物的方法</h2><h3 id="如何阅读实用性的书"><a href="#如何阅读实用性的书" class="headerlink" title="如何阅读实用性的书"></a>如何阅读实用性的书</h3><blockquote><p>任何实用性的书都不能解决概述所关心的实际问题<br><strong>实际的问题只能靠行动来解决</strong></p></blockquote><p>实用性的书可能会着眼于规则之下的科学性原理。<br>理论性的原则会归纳出出色的形式规则。</p><p><strong>给自己的问题</strong></p><ul><li>作者的目的是什么？</li><li>他建议用什么方法达到这个目的？</li></ul><h3 id="如何阅读想象文学"><a href="#如何阅读想象文学" class="headerlink" title="如何阅读想象文学"></a>如何阅读想象文学</h3><blockquote><p>不要抗拒想象文学给你的影响力。<br>不要去找共识、主旨和论述。<br>不要用适用于传递知识的，与真理一致的标准来批评小说。</p></blockquote><p><strong>以达成某种深沉的经验为目标（共鸣？共情？）</strong></p><p>运用同情心与洞察力参与事件的发生</p><blockquote><p>在你衷心感谢作者试着为你创造的经验之前，不要批评一本想象的作品。</p></blockquote><p>总结一下，在阅读想象文学时，应该先将自身带入作品本身，而不是作为一个旁观者，全身心体验作者想要传达给你的东西。</p><h3 id="如何阅读故事书"><a href="#如何阅读故事书" class="headerlink" title="如何阅读故事书"></a>如何阅读故事书</h3><p>全身心投入，一口气看完。</p><p>一种是满足我们个人特殊潜意识需求的小说<br>一种是满足大多数人潜意识需求的小说</p><hr><p>  mark一下五本史诗<br> 《伊利亚特》《奥德赛》《欸涅阿斯纪》《神曲》《失乐园》</p><h3 id="如何阅读戏剧"><a href="#如何阅读戏剧" class="headerlink" title="如何阅读戏剧"></a>如何阅读戏剧</h3><h3 id="如何阅读哲学书"><a href="#如何阅读哲学书" class="headerlink" title="如何阅读哲学书"></a>如何阅读哲学书</h3><blockquote><font color="#EEAD0E">←To Be Continued</font></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>「Note」游戏机制——高级游戏设计技术</title>
+      <link href="/2018/10/26/report2/"/>
+      <url>/2018/10/26/report2/</url>
+      
+        <content type="html"><![CDATA[<p>这就是一篇到处抄句子抄关键词然后干一些自问自答（<del>只有自问没有自答</del>）之类的事的沙雕笔记</p><a id="more"></a><hr><h2 id="设计游戏机制"><a href="#设计游戏机制" class="headerlink" title="设计游戏机制"></a>设计游戏机制</h2><h3 id="规则定义游戏"><a href="#规则定义游戏" class="headerlink" title="规则定义游戏"></a>规则定义游戏</h3><blockquote><p>规则是游戏的本质特性</p></blockquote><p>如何让游戏不可预测：</p><ul><li>加入适当的偶然因素</li><li>给玩家有趣的选择</li><li>能产生复杂玩法的规则</li></ul><p>mechanics &amp; rules<br>mechanic &amp; mechanism</p><p>机制的媒介独立性</p><p><strong>物理机制</strong><br>不仅仅包括单纯的运动和力<br><strong>内部经济</strong><br>游戏元素的收集，消费和交易等<br><strong>渐进机制</strong><br>控制游戏进程<br><strong>战术机动</strong> </p><blockquote><p>战术机动机制通常明确规定了每种单位在每个可能的位置上具有何种战略意义</p></blockquote><p><strong>社交互动</strong></p><h3 id="离散机制与连续机制"><a href="#离散机制与连续机制" class="headerlink" title="离散机制与连续机制"></a>离散机制与连续机制</h3><p>理论上，离散机制给设计者的发挥空间更大</p><h3 id="机制和游戏设计过程"><a href="#机制和游戏设计过程" class="headerlink" title="机制和游戏设计过程"></a>机制和游戏设计过程</h3><p>以玩家为中心的设计思路，注重玩家体验<br>我需要给玩家什么样的gameplay？</p><p>设计流程：</p><ol><li>概念设计<br>确定关键要素</li><li>详细设计<br>迭代 试玩</li><li>调整<br>特性冻结 做减法</li></ol><blockquote><p>make the toy first</p></blockquote><h3 id="原型制作技术"><a href="#原型制作技术" class="headerlink" title="原型制作技术"></a>原型制作技术</h3><p>术语 <del>行业黑话</del><br>高/低保真原型<br>垂直/水平分片</p><p>一个成功的软院原型需要在实现核心机制的同时具备高度的可调控性<br>软件原型构建速度慢且成本高</p><p>纸面原型</p><p>物理原型<br><a href="http://larp.meetup.com" target="_blank" rel="noopener">LARP</a></p><p>原型聚焦点:技术演示，游戏经济，界面和操作方案，教程</p><h2 id="突现和渐进"><a href="#突现和渐进" class="headerlink" title="突现和渐进"></a>突现和渐进</h2><h3 id="突现和渐进的历史"><a href="#突现和渐进的历史" class="headerlink" title="突现和渐进的历史"></a>突现和渐进的历史</h3><blockquote><p>突现现象由各种可能的规则组合所产生<br>渐进现象依靠于一个设计师紧密控制的事件序列</p></blockquote><p><strong>突现和渐进与游戏自由度的关系？</strong></p><h3 id="将突现和渐进进行对比"><a href="#将突现和渐进进行对比" class="headerlink" title="将突现和渐进进行对比"></a>将突现和渐进进行对比</h3><p>刚刚想到自由度的问题这里就写了（趴）<br>突现和渐进都是一种策略，这些策略可以用来控制玩家的自由度。在常见的游戏中，这两种机制一般都是混合使用的。</p><h3 id="突现型游戏"><a href="#突现型游戏" class="headerlink" title="突现型游戏"></a>突现型游戏</h3><p><strong>概率空间</strong><br>感觉就像是选择树一样的东西<br>玩家在概率空间内达到某种特定状态所经过的路径称为<strong>轨迹</strong></p><p>《文明》（Sid Meier’s Civilizations）是一个突现型游戏的实例，同时他也是一个很好的离散型机制的实例。<br>关键点是建立游戏元素之间的关联。（<del>突然想@某呆物</del>）</p><blockquote><p>让所有元素尽量简单，但又在各元素之间建立起联系。</p></blockquote><p>那么我们能不能这样认为：<em>一个好的突现型游戏，它的突现特性应该是从它的机制中自然生发（emerge）出来的</em>？如果这样，是否可以将这一点作为评价一个机制的因素？</p><h3 id="渐进型游戏"><a href="#渐进型游戏" class="headerlink" title="渐进型游戏"></a>渐进型游戏</h3><p>如何结合叙事与游戏性</p><p>叙事架构：着重于空间的叙事技巧</p><p>《half life》 <strong>轨道引导</strong>式叙事手法<br>貌似《DOOM》采用的也是类似的做法，把叙事放在游戏过程内，从而打造连续流畅的游戏体验。</p><p>实例：《塞尔达传说》<br>辐射式布局<br>为流程设置<strong>瓶颈</strong></p><h3 id="结构差异"><a href="#结构差异" class="headerlink" title="结构差异"></a>结构差异</h3><p><strong>复杂度屏障</strong><br><img src="/2018/10/26/report2/复杂度屏障.png" alt=""></p><p>两种结构的差异<br><img src="/2018/10/26/report2/结构差异.png" alt=""></p><h3 id="将突现和渐进相结合"><a href="#将突现和渐进相结合" class="headerlink" title="将突现和渐进相结合"></a>将突现和渐进相结合</h3><p>实例：《STARCRAFT》到《STARCRAFT2》<br>将渐进结构运用到游戏关卡中而不是仅仅将其用在关卡与关卡之间的过渡，从而使关卡重复度降低，提高游戏的可玩性。</p><h2 id="复杂系统和突现结构"><a href="#复杂系统和突现结构" class="headerlink" title="复杂系统和突现结构"></a>复杂系统和突现结构</h2><p>章节要点：突现、游戏机制和游戏可玩性的关系</p><h3 id="作为游戏突现特性的可玩性"><a href="#作为游戏突现特性的可玩性" class="headerlink" title="作为游戏突现特性的可玩性"></a>作为游戏突现特性的可玩性</h3><p>游戏的一致性应高于写实性，但不绝对高于。</p><p>秩序——周期性系统——突现性系统——混沌<br>复杂度递升</p><p>一个突现型游戏，设计师需要使所有的游戏元素平衡得恰到好处，从而使游戏整体行为表现出突现型游戏得特征。</p><p><em>了解一个游戏的可玩性最好的办法就是去试玩</em> </p><h3 id="复杂系统的结构特性"><a href="#复杂系统的结构特性" class="headerlink" title="复杂系统的结构特性"></a>复杂系统的结构特性</h3><p><strong>细胞自动机</strong></p><p>动态行为的系统的三个关键特性</p><ul><li>系统必须由简单的单元构成，这些单元的规则必须是局部性的。</li><li>系统必须支持远程信息传递。</li><li>系统组成单元的活跃程度能够有效地反映出系统行为的复杂度。</li></ul><blockquote><p>复杂系统的构建门槛其实出乎意料的低，只要有<strong>足够多</strong>的组成部分以及足够高的<strong>活跃性</strong>和<strong>关联性</strong>。</p></blockquote><p>举例：塔防游戏</p><p>反馈循环<br>负反馈循环使系统把持平衡，而正反馈循环可以使系统失稳。</p><p>突现分类：</p><ul><li>微小突现/有意突现</li><li>弱突现（鸟的集群飞行）<br>多重突现 （股市）</li><li>强突现<h3 id="驾驭游戏中的突现特性"><a href="#驾驭游戏中的突现特性" class="headerlink" title="驾驭游戏中的突现特性"></a>驾驭游戏中的突现特性</h3><blockquote><p>我们把以上所学的<strong>活跃</strong>并且<strong>相互关联</strong>的系统组成部分、反馈循环、系统的不同规模级别等概念看作一个系统，称为游戏的结构特性。</p></blockquote></li></ul><p><em>Machinations理论框架</em></p><h2 id="内部经济"><a href="#内部经济" class="headerlink" title="内部经济"></a>内部经济</h2><h3 id="内部经济的构成要素"><a href="#内部经济的构成要素" class="headerlink" title="内部经济的构成要素"></a>内部经济的构成要素</h3><p><strong>资源</strong> <strong>实体</strong></p><p>资源分为<strong>有形资源</strong>与<strong>无形资源</strong><br>有时候也把其看作<strong>抽象的</strong>和<strong>具体的_</strong></p><p><strong>经济系统的四个功能</strong></p><ul><li>来源</li><li>消耗器</li><li>转换器</li><li>交易器</li></ul><h3 id="经济结构"><a href="#经济结构" class="headerlink" title="经济结构"></a>经济结构</h3><p>了解机制结构所能产生的走势<br><strong>负反馈引发均衡</strong><br><img src="/2018/10/26/report2/负反馈引发均衡.png" alt=""><br><img src="/2018/10/26/report2/负反馈2.png" alt=""></p><p><strong>正反馈引发军备竞赛</strong><br><img src="/2018/10/26/report2/正反馈1.png" alt=""></p><p>要注意死锁局面</p><p>正反馈可以使玩家在取得决定性优势由迅速取胜。<br>这种情况在竞技类游戏中比较常见，也就是俗称的滚雪球。</p><p><strong>动态均衡</strong></p><blockquote><p>让负反馈循环的均衡依赖于多名玩家的境遇差异或游戏中的其他因素，从而使这种均衡具有差异性</p></blockquote><p>皮筋约束<br>基于<strong>相对位置</strong>的负反馈</p><h3 id="内部经济在游戏中的应用"><a href="#内部经济在游戏中的应用" class="headerlink" title="内部经济在游戏中的应用"></a>内部经济在游戏中的应用</h3><p>1)补强物理机制<br>同时注意平衡风险与回报<br>2)影响游戏进程<br>如引入路径的抽象资源<br>3)引入策略性玩法<br>4)创造出大概率空间</p><ul><li>在由于玩家自定义方案而出现游戏经济失衡时，最好是采用某些形式的负反馈来平衡这些自定义方案</li><li>保证概率空间足够大</li><li>理想上来说，设计关卡时就设计好多种过关方案</li></ul><p><strong>个人思考：如何为玩家提供个人化的游戏体验？</strong></p><h2 id="Machinations"><a href="#Machinations" class="headerlink" title="Machinations"></a>Machinations</h2><h3 id="Machinations框架"><a href="#Machinations框架" class="headerlink" title="Machinations框架"></a>Machinations框架</h3><p>理论依据: 游戏可玩性最终是由游戏系统中有形、无形和抽象资源的流动所决定的。<br><img src="/2018/10/26/report2/Machinations框架.png" alt=""></p><blockquote><font color="#EEAD0E">←To Be Continued</font></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Note </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>「GameShare」 Muse Dash</title>
+      <link href="/2018/10/24/gameshare1/"/>
+      <url>/2018/10/24/gameshare1/</url>
+      
+        <content type="html"><![CDATA[<center></center><a id="more"></a><blockquote><p><strong>一点点感想</strong></p></blockquote><p>之所以想拿MuseDash来起头，除了这游戏本身素质过硬这一点以外，我本人也是一个忠实的音游粉。孩童时期的鼓王，乐动达人等游戏可以算是我的音游启蒙。之后家里添置了iPad，我仍记得当初自己为了能在iPad上打太鼓达人和jubeat到处搜教程，怎么刷机越狱，怎么下到全曲包破解版，怎么解决闪退问题等等等等。虽然最后还是以失败告终，但现在想想还是挺有意思的。再到后来cytus，deemo，dynamix，nanota这些优秀的移动端音游出现，同时也接触了pc端的OSU！，beatstage等，我也随之在音游这条不归路上越走越远。（<del>虽然跟玩iidx等<strong>超</strong>硬核的音游的那些大佬还很有些距离</del>）</p><blockquote><p><strong>下面开始老老实实地介绍游戏</strong></p></blockquote><p>第一次接触到MuseDash是在TapTap的推荐首页上。当时看着是个音游而且画风还不错就喜加一了（<del>在steam上养成的坏习惯</del>），深入玩了之后才发现这是个十分良心的音乐游戏。<br>首先，不得不称赞一下游戏的机制，<strong>音游打击+战斗击打+跑酷</strong>是个很有意思的想法。玩家通过点击屏幕左右侧（也可以改为上下侧）来控制角色打击上下两个轨道的敌人（<del>被一个音游dalao朋友吐槽说这就是手机版太鼓</del>），敌人的类型也涵盖了传统音游里的单打，长按，连打，隐藏音，跑酷游戏里的机关。横向来看，传统音游在形式上多为下落式，光从形式上来看很容易产生枯燥感，对于非硬核音游玩家来说入门门槛有点高。传统的解决（吸引玩家）方式通常回事加入谱面内置动画，像iidx的动画，太鼓的咚咔酱跳舞等。然而音游是一种十分需要集中注意力的游戏类型，所以这些东西往往处在了一个很尴尬的位置，硬核玩家觉得烦，吃瓜玩家也不觉得有意思。MuseDash的这种直接丰富游戏过程做法，我个人感觉是在降低玩家第一次尝试的门槛，让更多的人能够来<strong>试一试</strong>这个游戏，从而有机会更深入地去体验这个游戏。事实证明，无论是从我个人的角度，还是客观地从Taptap平台上9.5的评分和iOS上4.9的评分来看，这个想法都是成功的。<br>其次，游戏的美术也是一个加分项。（<del>开始界面始终让我想起飞天小女警</del>）整个游戏给人的视觉效果就是灵动绚丽，人物动作的2D渲染（应该是叫这个吧？）做的十分流畅，美术风格虽然有点卡通，但是其实内核还是有点面向宅群体，游戏内有很多人物的身上还是可以看到一些宅文化符号。另外当初游戏的宣传图也做的十分赞，给我的视觉冲击感十分强烈，游戏内解锁的插画大多也是质量上乘。<br>虽然有一些判定和画面花里胡哨的问题被部分硬核音游玩家所诟病，但整体来讲瑕不掩瑜。特别是游戏制作者们十分用心，当时刚上线的时候部分安卓机型出现了卡顿问题，制作组在一个星期内就修复了这个问题。<br>总的来说，如果要评分的话，我给9.2/10.0，可以说是移动端难得一见的音游佳作。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Game </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GameShare </tag>
+            
+            <tag> Otogame </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
